@@ -104,20 +104,20 @@ ecommerce-backend/
 
 ### **Auth**
 
-- `POST /api/auth/register` → Register (user or seller)
-- `POST /api/auth/login` → Login
-- `PUT /api/auth/change-password` → Change password (authenticated)
-- `PUT /api/auth/profile` → Update profile
+- `POST /auth/register` → Register (user or seller)
+- `POST /auth/login` → Login
+- `PUT /auth/change-password` → Change password (authenticated)
+- `PUT /auth/profile` → Update profile
 
 ---
 
 ### **Seller**
 
-- `GET /api/seller/profile` → Get seller profile
-- `GET /api/seller/my-products` → Get seller’s products
-- `POST /api/seller/products` → Create product
-- `PUT /api/seller/products/:productId` → Update product
-- `DELETE /api/seller/products/:productId` → Delete product
+- `GET /seller/profile` → Get seller profile
+- `GET /seller/my-products` → Get seller’s products
+- `POST /seller/products` → Create product
+- `PUT /seller/products/:productId` → Update product
+- `DELETE /seller/products/:productId` → Delete product
 
 ---
 
